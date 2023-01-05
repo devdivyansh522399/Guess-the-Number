@@ -1,0 +1,118 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(rgb(0, 0, 0),white);
+  }
+  .header{
+    text-align: center;
+    padding: 20px;
+  }
+
+  .container-header{
+    border : 2px solid rgb(17, 16, 16);
+    font-size: 40px;
+    padding: 10px;
+    color: aliceblue;
+    border-radius: 5px;
+    background-color: rgba(10, 10, 10, 0.991);
+    box-shadow: 0px 15px 10px -15px rgb(255, 253, 253);
+    transition: all .5s ease-out;
+}
+  
+  .container-header:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(39, 245, 211);
+    box-shadow: 0px 0px 5px 5px rgb(255, 255, 255);
+  }
+  .heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    border-radius: 5px;
+    border: 2px solid black;
+    padding: 10px;
+    background-color: rgb(142, 122, 216);
+    box-shadow: 0px 15px 10px -15px rgb(0, 0, 0);
+  }
+.tag{
+    color:rgb(12, 12, 12);
+    font-size: 25px;
+    font-weight: bold;
+}
+.number{
+    padding: 10px;
+    font-size: 20px;
+}
+.number label{
+    padding: 5px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.number input{
+    padding : 5px;
+    border-radius: 5px;
+    border: 2px solid black;
+    background: linear-gradient(to right, black 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .5s ease-out;
+}
+.check{
+    padding: 5px 20px;
+    font-size: 14px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 2px solid black;
+    background: linear-gradient(to right, rgb(0, 0, 0) 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .5s ease-out;
+}
+.check:hover , .number input:hover{
+    background-position: left bottom;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0px 0px 5px 5px rgb(255, 255, 255);
+}
+.message{
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    margin-right: 20%;
+    margin-left: 20%;
+    font-size: 30px;
+    font-weight: bold;
+}
+.scorecard{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(140, 255, 0);
+    font-size: 25px;
+    font-weight: bold;
+}
+.replay{
+    text-align: center;
+    margin: 5%;
+    padding: 10px;
+}
+.again{
+    font-size: 30px;
+    font-weight: bold;
+    box-shadow:5px 25px 20px -15px rgb(0, 0, 0);
+}
+.again:hover{
+    box-shadow: 0px 0px 15px 15px hsla(0, 100%, 43%, 0.986);
+}

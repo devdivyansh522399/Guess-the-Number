@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Guess The Number</title>
+</head>
+<body>
+    <header class="header"><span class="container-header">Geuss The Number</span></header>
+    
+    <div class="container">
+        <div class="heading">    
+           <span class="tag">Enter the number between 1-20</span>
+           <div class="number">
+            <label for="number" name=" number">Enter number : </label>
+            <input type="number" name="number" class="guess" placeholder="Enter Number"><button class="btn check">Check!</button>
+        </div>
+        <div class="message">
+            <p class="notification">
+                Start Geussing...!😘😘
+            </p>
+        </div>
+        <div class="scorecard">
+            <div class="l_score">
+                <p class="label-score">Score: <span class="score">20</span></p>
+            </div>
+            <div class="H_score">
+                <p class="label-highscore">Highscore: <span class="highscore">0</span></p>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="replay">
+        <button class="again check">Again!</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
